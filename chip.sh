@@ -13,10 +13,10 @@ for dir in ./modules/*; do
 done
 
 docker compose -f docker-compose-base.yml ${str} config > /tmp/chiptemp
-modules=($(docker run --rm -v "/tmp":/workdir mikefarah/yq  '.services.* | key + ":" + .expose[0]' chiptemp))
+modules=($(docker run --rm -v "${PWD}":/workdir -w /workdir mikefarah/yq '.services.* | key + ":" + .expose[0]' chiptemp))
 rm /tmp/chiptemp
 
-core_modules=($(docker run --rm -v "${PWD}":/workdir mikefarah/yq '.* | key + ":" + .' core-modules.yaml))
+core_modules=($(docker run --rm -v "${PWD}":/workdir -w /workdir mikefarah/yq '.* | key + ":" + .' core-modules.yaml))
 
 > setup.env
 for module in ${modules[@]}; do
