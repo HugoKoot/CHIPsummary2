@@ -12,9 +12,9 @@ for dir in ./modules/*; do
     fi
 done
 
-docker compose -f docker-compose-base.yml ${str} config > /tmp/chiptemp
+docker compose -f docker-compose-base.yml ${str} config > chiptemp
 modules=($(docker run --rm -v "${PWD}":/workdir -w /workdir mikefarah/yq '.services.* | key + ":" + .expose[0]' chiptemp))
-rm /tmp/chiptemp
+rm chiptemp
 
 core_modules=($(docker run --rm -v "${PWD}":/workdir -w /workdir mikefarah/yq '.* | key + ":" + .' core-modules.yaml))
 
