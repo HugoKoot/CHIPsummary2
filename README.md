@@ -12,7 +12,7 @@ Welcome! This README will explain the general structure of the CHIP Modular Syst
 
 
 ## Quick Start
-For a quick start with default settings, just navigate to the root folder and use `./chip.sh start`. You may access the front end at `http://localhost:9000`.
+For a quick start with default settings, just navigate to the root folder and use `./chip.sh start`. You may access the front end at `http://localhost:9000` if you are running the rp-hugokoot-frontend-chatsummary as a frontend module you access the frontend at `http://localhost:9002`.
 
 ## Architecture Overview
 The system works with the notion of "core" modules, and "non-core" modules. There are five different types of core modules:

@@ -4,7 +4,7 @@
 | **Name**      | Quasar Front-End |
 | **Type**      | Front-End  |
 | **Core**      | Yes |
-| **Access URL**       | http://localhost:9000/ |
+| **Access URL**       | http://localhost:9002/ |
 
 ## Description
 This is the main front-end that the demo uses. It features a chat window with scrollable history, and a panel that gives a view of the GraphDB knowledge base.
