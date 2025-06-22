@@ -1,0 +1,27 @@
+Synthesized Summary from Gemini API:
+=====================================
+
+Patient Name: John
+Timestamp: 20250622_114415
+
+--------------------
+{
+  "summary": "Patient John's chat interactions consistently provide no information regarding his adherence to diabetes management, including diet, medication, or physical activity. There are no reported successes, struggles, or emerging trends related to his health care. His engagement with the bot's intended health-monitoring purpose is extremely low, characterized by consistently minimal, repetitive, and off-topic responses such as 'hi' and 'test.' A notable instance of inconsistency occurred in one session where John initially stated 'i like pizza' before immediately contradicting himself with 'i hate pizza'; this latter phrase was then repetitively used in subsequent chats. This overall pattern suggests John is utilizing the bot for testing its functionality rather than engaging in meaningful health-related dialogue, indicating a complete lack of adherence to its intended purpose and a negative momentum concerning self-management reporting.",
+  "flags": [
+    {
+      "indicator": "Inconsistency",
+      "excerpt": "Chat with John (20250622_102633):\nJohn (Patient):\ti like pizza\nBot:\tI don't understand, could you try rephrasing it?\nJohn (Patient):\ti hate pizza",
+      "explanation": "In the same chat session, John first declared 'i like pizza' and then immediately contradicted himself by stating 'i hate pizza.' This inconsistency was not clarified or resolved in subsequent interactions."
+    },
+    {
+      "indicator": "Engagement Level",
+      "excerpt": "Chat with John (20250622_114415):\nJohn (Patient):\thi\nBot:\tHi, John\nJohn (Patient):\ttest\nBot:\tI don't understand, could you try rephrasing it?",
+      "explanation": "The patient repeatedly sent 'hi' and 'test' messages across multiple sessions, indicating an intent to test the bot's functionality rather than engage in health-related dialogue for diabetes management. This pattern illustrates extremely low engagement with the bot's intended purpose. Severity: high."
+    },
+    {
+      "indicator": "Engagement Level",
+      "excerpt": "Chat with John (20250622_103026):\nJohn (Patient):\ti hate pizza\nBot:\tI don't understand, could you try rephrasing it?",
+      "explanation": "Following an initial inconsistency, the patient repeatedly provided non-substantive and non-health-related input, such as 'i hate pizza,' across multiple sessions. This suggests an attempt to bypass meaningful interaction or test the system, indicating a sustained lack of willingness to engage in dialogue relevant to diabetes management. Severity: high."
+    }
+  ]
+}

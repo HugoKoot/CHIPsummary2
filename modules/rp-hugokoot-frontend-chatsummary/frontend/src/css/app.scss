@@ -1,0 +1,12 @@
+// app global css in SCSS form
+
+#q-app {
+  max-height: 100vh; /* or min-height:100vh if you want it to grow */
+  min-height: 100vh;
+  display: flex;
+}
+.q-pa-md {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}

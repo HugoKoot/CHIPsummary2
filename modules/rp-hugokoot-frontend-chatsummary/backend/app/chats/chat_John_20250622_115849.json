@@ -1,0 +1,38 @@
+{
+  "patient_name": "John",
+  "timestamp": "20250622_115849",
+  "messages": [
+    {
+      "message": "hi",
+      "user": {
+        "name": "John",
+        "human": true
+      },
+      "timestamp": "2025-06-22T11:55:37.476Z"
+    },
+    {
+      "message": "Hi, John",
+      "user": {
+        "name": "Bot",
+        "human": false
+      },
+      "timestamp": "2025-06-22T11:55:37.737Z"
+    },
+    {
+      "message": "test",
+      "user": {
+        "name": "John",
+        "human": true
+      },
+      "timestamp": "2025-06-22T11:57:33.753Z"
+    },
+    {
+      "message": "I don't understand, could you try rephrasing it?",
+      "user": {
+        "name": "Bot",
+        "human": false
+      },
+      "timestamp": "2025-06-22T11:57:34.064Z"
+    }
+  ]
+}

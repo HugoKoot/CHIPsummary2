@@ -1,0 +1,23 @@
+Synthesized Summary from Gemini API:
+=====================================
+
+Patient Name: John
+Timestamp: 20250622_102633
+
+--------------------
+{
+  "summary": "During this brief chat session, John exhibited extremely low and contradictory engagement, providing limited information. He notably stated \"i like pizza\" followed by \"i hate pizza\", leading to communication breakdown and making it impossible for the bot to collect meaningful data regarding his dietary preferences, medication intake, or physical activity levels. This inconsistency suggests a foundational issue with his willingness or ability to provide coherent and reliable information through the chat interface. Consequently, overall adherence status and progress cannot be assessed from this interaction, highlighting a concerning communication pattern that indicates a need for closer follow-up.",
+  "flags": [
+    {
+      "indicator": "Engagement Level",
+      "excerpt": "John (Patient): i like pizza\nBot: I don't understand, could you try rephrasing it?\nJohn (Patient): i hate pizza\nBot: I don't understand, could you try rephrasing it?",
+      "explanation": "The patient provided extremely brief and immediately contradictory statements within the same short session, first stating a preference for pizza and then dislike. This very low and inconsistent engagement made it impossible for the bot to understand or gather any meaningful data, suggesting an unwillingness or inability to provide reliable information."
+    },
+    {
+      "indicator": "Inconsistency",
+      "excerpt": "John (Patient): i like pizza\nBot: I don't understand, could you try rephrasing it?\nJohn (Patient): i hate pizza",
+      "explanation": "Within moments, the patient provided directly contradictory statements regarding his preference for pizza. This severe inconsistency raises concerns about the reliability of any future self-reported information, and directly matches the 'inconsistency' flag.",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+services:
+  rp-hugokoot-frontend-chatsummary:
+    container_name: rp-hugokoot-frontend-chatsummary
+    build:
+      context: ./modules/rp-hugokoot-frontend-chatsummary
+    expose:
+      - 5000
+    ports:
+      - "9002:9000"
+    volumes:
+      - ./modules/rp-hugokoot-frontend-chatsummary/backend:/backend
+      - ./modules/rp-hugokoot-frontend-chatsummary/frontend:/frontend
+    env_file:
+      - setup.env
+      - ./modules/rp-hugokoot-frontend-chatsummary/config.env
+    depends_on:
+      - redis
+      - knowledge-demo
+    networks:
+      default:
+        aliases:
+          - rp-hugokoot-frontend-chatsummary

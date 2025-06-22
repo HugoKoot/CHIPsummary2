@@ -1,5 +1,5 @@
 logger_module: logger-default
-frontend_module: front-end-quasar
+frontend_module: rp-hugokoot-frontend-chatsummary
 response_generator_module: response-generator-demo
 reasoner_module: reasoning-demo
 triple_extractor_module: text-to-triples-rule-based

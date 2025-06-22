@@ -1,0 +1,40 @@
+Synthesized Summary from Gemini API:
+=====================================
+
+Patient Name: John
+Timestamp: 20250622_120000
+
+--------------------
+{
+  "summary": "John's interactions with the bot are consistently brief, non-specific, and lack substantive information regarding his diet, medication adherence, or physical activity. He has not reported any successes or struggles related to his diabetes management, indicating a general lack of engagement with the bot's intended purpose. His inputs frequently include repetitive, uninformative terms like 'test' or 'i hate pizza', and in one instance, he directly contradicted a stated preference. This pattern suggests he may be attempting to probe the system's functionality rather than actively participating in health reporting. Consequently, there is extremely low adherence to reporting protocols, current health communication momentum is stagnant, and a comprehensive assessment of his diabetes management progress is not possible.",
+  "flags": [
+    {
+      "indicator": "Inconsistency",
+      "excerpt": "John (Patient): i like pizza\nBot: I don't understand, could you try rephrasing it?\nJohn (Patient): i hate pizza",
+      "explanation": "The patient directly contradicted his stated preference for pizza within the same chat session (20250622_102633), which is an explicit inconsistency."
+    },
+    {
+      "indicator": "VagueLanguage",
+      "excerpt": "Current Chat Session: Chat with John (20250622_120000):\nJohn (Patient):\ttest\nBot:\tI don't understand, could you try rephrasing it?\nPrevious Saved Chats: Chat with John (20250622_114319):\nJohn (Patient):\ttest\nBot:\tI don't understand, could you try rephrasing it?",
+      "explanation": "The patient repeatedly uses the highly vague and uninformative term 'test' in multiple chat sessions. This provides no actionable information about his health, diet, or medication adherence, suggesting he is probing the bot's functionality rather than engaging with health-specific questions.",
+      "severity": "High"
+    },
+    {
+      "indicator": "Engagement Level",
+      "excerpt": "Current Chat Session: Chat with John (20250622_120000):\nJohn (Patient):\thi\nBot:\tHi, John\nJohn (Patient):\ttest\nBot:\tI don't understand, could you try rephrasing it?",
+      "explanation": "This excerpt, representative of most interactions, demonstrates extremely low patient engagement characterized by brief, generic greetings ('hi') and non-specific inputs ('test'). This minimal interaction prevents any meaningful data collection regarding diabetes management and strongly suggests non-adherence to the bot's intended use for health reporting due to the lack of substantive communication."
+    },
+    {
+      "indicator": "Gaming the System",
+      "excerpt": "John (Patient): i like pizza\nBot: I don't understand, could you try rephrasing it?\nJohn (Patient): i hate pizza",
+      "explanation": "The patient's immediate self-contradiction regarding pizza preferences within a single session (20250622_102633) suggests an intent to experiment with the bot rather than engage in a serious effort to report compliance.",
+      "confidence": "low"
+    },
+    {
+      "indicator": "Gaming the System",
+      "excerpt": "Previous Saved Chats: Chat with John (20250622_103026):\nJohn (Patient):\ti hate pizza\nBot:\tI don't understand, could you try rephrasing it?\nChat with John (20250622_103124):\nJohn (Patient):\ti hate pizza\nBot:\tI don't understand, could you try rephrasing it?",
+      "explanation": "The patient repeatedly inputs 'i hate pizza' across multiple distinct sessions, despite receiving the same 'I don't understand' response from the bot. This repetitive, non-adherence-related input suggests an attempt to generate interaction without providing meaningful health information or engaging constructively with the bot's intended purpose.",
+      "confidence": "low"
+    }
+  ]
+}

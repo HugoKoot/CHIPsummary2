@@ -1,0 +1,14 @@
+{
+  "patient_name": "John",
+  "timestamp": "20250622_113309",
+  "messages": [
+    {
+      "message": "hi",
+      "user": {
+        "name": "John",
+        "human": true
+      },
+      "timestamp": "2025-06-22T11:32:53.743Z"
+    }
+  ]
+}

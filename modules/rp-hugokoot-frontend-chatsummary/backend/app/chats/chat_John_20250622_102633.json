@@ -1,0 +1,54 @@
+{
+  "patient_name": "John",
+  "timestamp": "20250622_102633",
+  "messages": [
+    {
+      "message": "hi",
+      "user": {
+        "name": "John",
+        "human": true
+      },
+      "timestamp": "2025-06-22T10:26:23.598Z"
+    },
+    {
+      "message": "Hi, John",
+      "user": {
+        "name": "Bot",
+        "human": false
+      },
+      "timestamp": "2025-06-22T10:26:24.633Z"
+    },
+    {
+      "message": "i like pizza",
+      "user": {
+        "name": "John",
+        "human": true
+      },
+      "timestamp": "2025-06-22T10:26:27.154Z"
+    },
+    {
+      "message": "I don't understand, could you try rephrasing it?",
+      "user": {
+        "name": "Bot",
+        "human": false
+      },
+      "timestamp": "2025-06-22T10:26:27.735Z"
+    },
+    {
+      "message": "i hate pizza",
+      "user": {
+        "name": "John",
+        "human": true
+      },
+      "timestamp": "2025-06-22T10:26:30.203Z"
+    },
+    {
+      "message": "I don't understand, could you try rephrasing it?",
+      "user": {
+        "name": "Bot",
+        "human": false
+      },
+      "timestamp": "2025-06-22T10:26:30.620Z"
+    }
+  ]
+}
